@@ -22,3 +22,10 @@ body,
   -webkit-text-fill-color: transparent;
   color: transparent;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 20px;
+}

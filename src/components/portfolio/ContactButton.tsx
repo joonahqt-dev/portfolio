@@ -9,9 +9,14 @@ export default function ContactButton({
   onClick,
   className = "",
 }: ContactButtonProps) {
+  const handleClick = () => {
+    if (onClick) return onClick();
+    window.location.href = "mailto:joonhqt@gmail.com";
+  };
+
   return (
     <button
-      onClick={onClick}
+      onClick={handleClick}
       className={`rounded-full text-white font-medium uppercase tracking-widest px-8 py-3 sm:px-10 sm:py-3.5 md:px-12 md:py-4 text-xs sm:text-sm md:text-base transition-transform hover:scale-105 ${className}`}
       style={{
         background:

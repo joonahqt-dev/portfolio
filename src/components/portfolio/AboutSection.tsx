@@ -52,8 +52,8 @@ export default function AboutSection() {
           </h2>
         </FadeIn>
 
-        <AnimatedText
-          text="With more than five years of experience in design, i focus on branding, web design, and user experience, i truly enjoy working with businesses that aim to stand out and present their best image. Let's build something incredible together!"
+                <AnimatedText
+          text="A developer with a passion for building immersive web  experiences, i focus on 3D interactions, clean interfaces, and the little details that make a site feel alive. I love       working on ambitious projects that push what the browser can do. Let's build something incredible together!"
           className="text-[#D7E2EA] font-medium leading-relaxed max-w-[560px] text-center"
           style={{ fontSize: "clamp(1rem, 2vw, 1.35rem)" }}
         />

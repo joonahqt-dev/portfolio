@@ -8,15 +8,15 @@ export default function HeroSection() {
       {/* Navbar */}
             <FadeIn delay={0} y={-20}>
         <nav className="flex items-center justify-between px-6 md:px-10 pt-6 md:pt-8 text-[#D7E2EA] font-medium uppercase tracking-wider text-sm md:text-lg lg:text-[1.4rem]">
-          {["About", "Price", "Projects", "Contact"].map((link) => (
-            <a
-              key={link}
-              href={`#${link.toLowerCase()}`}
-              className="hover:opacity-70 transition-opacity duration-200"
-            >
-              {link}
-            </a>
-          ))}
+          {["About", "Services", "Projects", "Contact"].map((link) => (
+  <a
+    key={link}
+    href={`#${link.toLowerCase()}`}
+    className="hover:opacity-70 transition-opacity duration-200"
+  >
+    {link}
+  </a>
+))}
         </nav>
       </FadeIn>
 
@@ -24,7 +24,7 @@ export default function HeroSection() {
       <div className="overflow-hidden w-full mt-6 sm:mt-4 md:-mt-5 px-2">
         <FadeIn delay={0.15} y={40}>
           <h1 className="hero-heading font-black uppercase tracking-tight leading-none whitespace-nowrap w-full text-[14vw] sm:text-[15vw] md:text-[16vw] lg:text-[17.5vw] text-center">
-            Hi, i&apos;m jack
+            Hi, i&apos;m dhruv
           </h1>
         </FadeIn>
       </div>

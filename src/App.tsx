@@ -3,6 +3,7 @@ import MarqueeSection from "./components/portfolio/MarqueeSection";
 import AboutSection from "./components/portfolio/AboutSection";
 import ServicesSection from "./components/portfolio/ServicesSection";
 import ProjectsSection from "./components/portfolio/ProjectsSection";
+import ContactSection from "./components/portfolio/ContactSection";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <AboutSection />
       <ServicesSection />
       <ProjectsSection />
+      <ContactSection />
     </main>
   );
 }
